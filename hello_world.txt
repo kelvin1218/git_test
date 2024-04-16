@@ -5,3 +5,5 @@ git add
 git commit -m "Add "
 git log
 git add . #(adds all files to staging)
+git push
+git push origin main
