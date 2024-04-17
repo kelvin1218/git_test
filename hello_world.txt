@@ -3,6 +3,7 @@ touch
 git status
 git add
 git commit -m "Add "
+-m is the commit message
 git log
 git add . #(adds all files to staging)
 git push

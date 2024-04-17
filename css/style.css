@@ -7,6 +7,8 @@ body {
     background-color: #77DD77;
     font-size: 21px;
     background-image: url(../img/leaves.png);
+    font-family: Futura, sans-serif;
+    /* www.cssfontstack.com */
 }
 
 p {
@@ -68,6 +70,35 @@ div {
 
 }
 
+.contentbox{
+    box-sizing: content-box;
+    width: 700px;
+    height: 300px;
+    background-color: black;
+    padding: 50px;
+    border: green solid 25px;
+    
+}
+
+.borderbox{
+    box-sizing: border-box;
+    /* border box sets the width height as total height */
+    width: 700px;
+    height: 300px;
+    background-color: blue;
+    padding: 50px;
+    border: green solid 25px;
+}
+
+/* 
+universal box
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+ }
+  */
+
 .pagefour{
     background-image: url(../img/cat.jpeg);
     padding: 50px 25px;
@@ -76,4 +107,57 @@ div {
     /* background-repeat */
     background-size: cover;
     /* contain - proportion stretch , cover (no repeat at all) */
+}
+
+.page5h1{
+    margin-bottom: 0;
+}
+
+.page5para{
+    margin-top: 0px;
+    margin-bottom: 20px;
+
+    line-height: 40px;
+    font-style: ;
+    font-weight: ;
+    text-align: center;
+    text-decoration: ;
+    text-transform: lowercase;
+    /* or use no units between 1 - 2 */
+    /* equal distribution 20 top & bottom */
+}
+
+/* color: yellow !important (to ignore specificity) */
+
+ul {
+    list-style: disc;
+    background-color: #77DD77;
+    display: flex;
+}
+
+ul li{
+    background: blue;
+    list-style-position: outside;
+    /* chrome default is outside */
+    width: 500px;
+    margin: 5px;
+    /* display: flex; */
+
+}
+
+ol{
+    list-style: upper-roman;
+    margin-left: -5px;
+    list-style-image: ;
+    background-color: pink;
+    
+}
+
+ol li{
+    background: red;
+    margin-top: 0;
+    margin-bottom: 10px;
+    width: 500px;
+    list-style-position: inside;
+    /* firefox default is inside */
 }
