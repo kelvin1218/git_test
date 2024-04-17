@@ -1,6 +1,12 @@
+.mainbody {
+    background-color: #77DD77;
+    font-size: 21px;
+}
+
 body {
     background-color: #77DD77;
     font-size: 21px;
+    background-image: url(../img/leaves.png);
 }
 
 p {
@@ -9,4 +15,65 @@ p {
 
 h1 {
     
+}
+
+.top {
+    background-color: #FFD1DC;
+    width: 500px;
+    color: black;
+}
+
+span{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: black;
+
+}
+
+#bottom {
+    background-color: bisque;
+    width: 500px;
+    color: black;
+}
+
+div {
+    background-color: black;
+    color: white;
+    width: 750px;
+}
+
+/* . is for class & # is for ID */
+/* CSS BOX MODEL */
+/* margin: pixels around it (circles) have nothing at all
+   border:
+   padding:
+*/
+
+.box{
+    background: pink;
+    width: 300px;
+
+    margin: 100px;
+    /* margin is empty space outside the div */
+    border-width: 5px;
+    border-color: red;
+    border-style: ridge;
+    border-top: 5px solid rgb(0, 17, 255);
+    /* the cascade for border is important */
+    /* in thie case border applies before border top */
+    padding: 50px 25px;
+    /* padding is empty space in div, top, right bottom left (clockwise)*/
+    /* padding two values ( top+bottom, left+right) */
+
+
+}
+
+.pagefour{
+    background-image: url(../img/cat.jpeg);
+    padding: 50px 25px;
+    margin: 100px;
+    color: red;
+    /* background-repeat */
+    background-size: cover;
+    /* contain - proportion stretch , cover (no repeat at all) */
 }
