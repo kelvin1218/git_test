@@ -161,3 +161,36 @@ ol li{
     list-style-position: inside;
     /* firefox default is inside */
 }
+
+.floatimg{
+    float: left;
+}
+
+.redbox{
+    box-sizing: border-box;
+    height: 500px;
+    width: 500px;
+    background: rgba(255,0,0,.5);
+    float: left;
+}
+
+.bluebox{
+    box-sizing: border-box;
+    height: 400px;
+    width: 700px;
+    background: blue;
+}
+
+.floatp {
+    background-color: yellow;
+}
+
+/* center a div */
+
+.indexcont{
+    background-color: rgba(255,255,255,0.8);
+    width: 70%;
+    max-width: 1000px;
+    min-width: 500px;
+    margin: 0 auto;
+}
