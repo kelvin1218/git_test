@@ -1,0 +1,10 @@
+GRID
+
+display: grid;
+grid-template-columns
+gap: 1rem (for gap between the grid)
+grid-template-columns: 50 1fr 1fr ; (fr means take up the remaining of the space)
+grid-template-columns: repeat(4, 1fr) OR repeat(autofill, minmax)
+grid auto flow
+
+"HTML on its own is responsive. It becomes non responsive as you add in images and style with css. Write your markup first, then style for mobile first and use media queries to increase complexity for larger displays "
